@@ -5,7 +5,7 @@ WORKDIR /tmp
 #    unzip awscliv2.zip && \
 #    ./aws/install
 
-RUN yum install -y awscli \
+RUN yum install -y awscli
 
 ADD test.sh /
 CMD []
